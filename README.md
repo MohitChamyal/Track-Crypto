@@ -1,38 +1,34 @@
-echo "# Track Crypto 🚀
-Track Crypto is a React-based web application that provides real-time cryptocurrency price tracking using the CoinGecko API.
+# Track Crypto 🚀  
+Track Crypto is a **React-based** web application that provides **real-time cryptocurrency price tracking** using the CoinGecko API. The platform enables users to view live cryptocurrency prices, analyze price trends, and interact with dynamic charts, all in an intuitive and user-friendly interface.
+
+---
 
 ## 🌟 Features
-- 🔥 Live cryptocurrency price updates
-- 📈 Interactive charts (React-ChartJS)
-- 🌎 Supports multiple currencies (USD, INR, etc.)
-- 🔍 Search and filter cryptocurrencies
-- ⚡ 'Load More' button to view more coins
+✅ **Live Cryptocurrency Prices** – Get real-time updates on various cryptocurrencies.  
+✅ **Multi-Currency Support** – Switch between **USD, INR, RUB, JPY, and BRL** effortlessly.  
+✅ **Interactive Charts** – Analyze price trends with **React-ChartJS** integration.  
+✅ **Search & Filter** – Quickly find specific cryptocurrencies using the built-in search bar.  
+✅ **Sorting Options** – Filter cryptocurrencies based on **price changes (positive/negative)**.  
+✅ **Load More Functionality** – View additional coins dynamically by clicking **"Load More"**.  
 
-## 🛠️ Installation & Usage
-
-# Clone the repository
-git clone https://github.com/MohitChamyal/Track-Crypto.git
-
-# Navigate to the project directory
-cd Track-Crypto
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-\`\`\`
+---
 
 ## 📜 Technologies Used
-- React.js ⚛️
-- React Router
-- Axios (API Calls)
-- Chart.js (Graphical Representation)
-- CoinGecko API (Data Source)
+⚛️ React.js – Component-based UI development.
 
-## 🤝 Contributing
-Feel free to fork this repository and submit pull requests. If you have suggestions or find any bugs, open an issue!
+🔄 React Router – Client-side routing for seamless navigation.
 
-## 🏆 Show Your Support
-Give a ⭐ if you like this project! Happy coding! 🚀
+🌐 Axios – API calls for fetching real-time cryptocurrency data.
+
+📊 Chart.js – Data visualization with interactive charts.
+
+🔥 CoinGecko API – Reliable cryptocurrency market data source.
+
+🎨 CSS – Custom styling for enhanced UI/UX.
+
+---
+
+### **Clone the Repository**
+```sh
+git clone https://github.com/MohitChamyal/Track-Crypto.git
 
