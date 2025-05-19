@@ -6,6 +6,7 @@ import Header from "./Header";
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi";
 import { IoPulseOutline } from "react-icons/io5";
 import CoinChart from "./CoinChart";
+import Footer from './Footer'
 
 const CoinsDetail = () => {
   const { id } = useParams();
@@ -107,6 +108,7 @@ const CoinsDetail = () => {
           </>
         )}
       </div>
+      <Footer></Footer>
     </>
   );
 };

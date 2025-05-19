@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Header from "./Header";
 import "./Coins.css";
 import CoinSummary from "./CoinSummary";
 import axios from "axios";
+import Footer from "./Footer";
 
 const Coins = () => {
   const baseUrl = "https://api.coingecko.com/api/v3/coins/markets";
@@ -12,7 +13,7 @@ const Coins = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredCoins, setFilteredCoins] = useState([]);
   const [sortType, setSortType] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(15); 
+  const [visibleCount, setVisibleCount] = useState(15);
 
   const currencySymbols = {
     inr: "₹",
@@ -147,6 +148,7 @@ const Coins = () => {
           </button>
         )}
       </div>
+      <Footer/>
     </>
   );
 };

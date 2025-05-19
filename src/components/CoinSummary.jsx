@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from "react-router-dom";
 import './CoinSummary.css';
 
@@ -8,7 +7,7 @@ const CoinSummary = (props) => {
   };
 
   return (
-    <Link to={`/${props.id}`}>
+    <Link to={`/coins/${props.id}`}>
       <div className="container">
         <img src={props.image} alt={props.name} />
         <div className="name">

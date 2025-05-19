@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.landing {
+  min-height: 100vh;      
+  width: 100vw;           
+  position: relative;     
+  display: flex;
+  flex-direction: column;
+  background: url('../assets/crypto-bg.jpg') no-repeat center center / cover;
+  overflow-x: hidden;
+}
+
+.landing-nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #f0f6fc;
+  user-select: none;
+  background: transparent;
+}
+
+.landing-logo {
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  font-size: 1.5rem;
+  color: #f7931a;
+  transition: color 0.3s ease;
+  background: transparent;
+}
+
+.landing-logo:hover {
+  color: #ffa500;
+}
+
+.btn-login {
+  background: transparent;
+  border: 2px solid #f7931a;
+  color: #f7931a;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #f7931a;
+  color: #0d1117;
+}
+
+.landing-hero {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 10;
+  text-align: center;
+  min-height: calc(100vh - 72px); 
+}
+
+.landing-hero-content {
+  max-width: 650px;
+  color: #f0f6fc;
+}
+
+.landing-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.landing-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  color: #8b949e;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.btn-primary {
+  background-color: #f7931a;
+  color: #0d1117;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(247, 147, 26, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ffa500;
+  box-shadow: 0 12px 25px rgba(255, 165, 0, 0.45);
+}
+
+
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2.6rem;
+  }
+
+  .landing-subtitle {
+    font-size: 1rem;
+  }
+
+  .landing-nav {
+    padding: 1rem 2rem;
+  }
+
+  .btn-login {
+    padding: 0.35rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing-title {
+    font-size: 2rem;
+  }
+
+  .landing-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
